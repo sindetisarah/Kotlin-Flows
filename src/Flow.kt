@@ -13,10 +13,11 @@ fun main() {
 
 }
 fun oddNumbers(){
-    for (i in range(1,100))
-        if(i%2!==0) {
+    for (i in range(1,100)) {
+        if (i % 2 !== 0) {
             println(i)
         }
+    }
 }
 fun countCharacters(name1:String,name2:String,name3:String,name4:String,name5:String):Int{
 var namesArray= arrayOf(name1,name2,name3,name4,name5)
@@ -41,20 +42,19 @@ fun serveDrink(age:Int):String{
 
 }
 fun multiples(){
-    for (i in range(1,100))
-            if(i%3==0 && i%5==0) {
-                println("FizzBuzz")
-            }
-                else if (i%3==0) {
+    for (i in range(1,100)) {
+        if (i % 3 == 0 && i % 5 == 0) {
+            println("FizzBuzz")
+        } else if (i % 3 == 0) {
 
-                    println("Fizz")
-                }
-                    else if (i%5==0 ){
-                      println("Buzz")
+            println("Fizz")
+        } else if (i % 5 == 0) {
+            println("Buzz")
 
-                    }else{
-                        println(i)
-            }
+        } else {
+            println(i)
+        }
+    }
 
                 }
 
